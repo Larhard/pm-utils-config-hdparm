@@ -14,7 +14,4 @@ install:
 uninstall:
 	$(RM) $(INSTALLED_TARGETS)
 
-clean:
-	$(RM) $(TARGETS) *.o
-
-.PHONY: clean install uninstall
+.PHONY: install uninstall
